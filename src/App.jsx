@@ -30,7 +30,7 @@ export default function App() {
 
       if(value === '') {
         setInput1(0);
-        setInputArr1([]); // Reset the array state
+        setInputArr1([]);
         values = '';
       }
     }
@@ -60,8 +60,8 @@ export default function App() {
         setInputArr2([]);
         values = '';
       }
-    } // This is where the missing closing brace should be
-  } // Correctly close the calculate function
+    } 
+  } 
 
   function sum() {
     if(input2 === '+') {
