@@ -7,8 +7,8 @@ export default function App() {
   const [input2, setInput2] = useState('');
   const [input3, setInput3] = useState(0);
   const [output, setOutput] = useState(0);
-  const [inputArr1, setInputArr1] = useState([]);
-  const [inputArr2, setInputArr2] = useState([]);
+  const [setInputArr1] = useState([]);
+  const [setInputArr2] = useState([]);
   let values ='';
 
   function calculate(value, number) {
